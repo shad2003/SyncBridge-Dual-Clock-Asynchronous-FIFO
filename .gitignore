@@ -1,0 +1,20 @@
+# Simulation artifacts & binaries
+sim/*.vvp
+sim/*.log
+sim/*.vcd
+sim/*.out
+!sim/.gitkeep
+
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Editor and OS files
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
